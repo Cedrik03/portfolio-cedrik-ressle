@@ -1,0 +1,106 @@
+/* Sida2.css */
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tech-article {
+    background-color: #1e1e1e; /* mörk bakgrund */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .tech-article:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech-article img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  /* App.css */
+.App {
+    text-align: center;
+    background-color: #0d1117;
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .App-header {
+    padding: 40px 20px;
+  }
+  
+  .App-logo {
+    height: 120px;
+    pointer-events: none;
+    margin-bottom: 20px;
+    animation: spin 20s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .App h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .App h2 {
+    font-size: 1.5rem;
+    color: #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  .App p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .App-link, .App button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: #0d1117;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .App-link:hover, .App button:hover {
+    background-color: #21a1f1;
+  }
+  
+  
