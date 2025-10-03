@@ -30,7 +30,7 @@ function App() {
         )}
       </header>
 
-      {/* Conditional rendering: Visa Sida2 om state är true */}
+  
       {visaSida2 && <Sida2 />}
     </div>
   );

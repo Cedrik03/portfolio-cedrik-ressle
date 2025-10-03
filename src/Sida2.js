@@ -1,6 +1,6 @@
 import "./Sida2.css";
 
-// src/Sida2.js
+
 function Sida2() {
     return (
       <div>
